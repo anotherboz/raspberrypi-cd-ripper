@@ -4,3 +4,4 @@ Description=Rip audio CD on insertion
 [Service]
 Type=oneshot
 ExecStart=/usr/local/sbin/rip-audio-cd.sh %I
+
